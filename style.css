@@ -12,6 +12,13 @@
     align-items: center;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 *{
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -27,6 +34,7 @@ header {
     flex-direction: column;
     padding: 36px 100px 36px 100px;
     gap: 50px;
+    height: 50%;
 }
 
 .navbar {
@@ -96,4 +104,32 @@ header {
 .first {
     gap: 25px;
     align-items: flex-start;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 30px;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.card {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border: 2px red sold;
+    border-radius: 16px;
+}
+
+.third {
+    background-color: #E5E7EB;
 }
