@@ -113,6 +113,19 @@ header {
     
 }
 
+.second-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.info {
+    font-size: 64px;
+    color: #1F2937;
+}
+
 .second {
     display: flex;
     justify-content: center;
@@ -127,7 +140,7 @@ header {
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 350px;
 }
 
 .card img {
@@ -135,6 +148,11 @@ header {
     height: auto;
     border: 2px red sold;
     border-radius: 16px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 32px;
 }
 
 .third.flex-center {
