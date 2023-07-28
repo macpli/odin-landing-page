@@ -25,6 +25,12 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 p {
     margin: 0;
 }
@@ -34,7 +40,7 @@ header {
     flex-direction: column;
     padding: 36px 100px 36px 100px;
     gap: 50px;
-    height: 50%;
+    height: 50vh;
 }
 
 .navbar {
@@ -74,7 +80,7 @@ header {
 .about-img img{
     display: flex;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
     border-radius: 16px;
 }
@@ -104,6 +110,7 @@ header {
 .first {
     gap: 25px;
     align-items: flex-start;
+    
 }
 
 .second {
@@ -113,7 +120,7 @@ header {
     gap: 64px;
     padding: 30px;
     flex-wrap: wrap;
-    height: 50%;
+    height: 50vh;
 }
 
 .card {
@@ -130,6 +137,56 @@ header {
     border-radius: 16px;
 }
 
-.third {
+.third.flex-center {
+    flex-direction: column;
     background-color: #E5E7EB;
+    height: 50vh;
+}
+
+.fourth {
+    height: 50vh;
+}
+
+.cta-card {
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 80px;
+    gap: 16px;
+}
+
+.cta p{
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-bottom: 12px;
+}
+
+.author {
+    align-self: flex-start;
+}
+
+.wrapper {
+    width: 100ch;
+}
+
+footer div{
+    padding: 20px;
+}
+
+.cta-button {
+    border: 2px white solid;
+    color: white;
+    background-color: #3882f6;
+    padding: 20px 30px;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 18px;
 }
