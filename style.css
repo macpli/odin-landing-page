@@ -1,0 +1,99 @@
+.txt-white {
+    color: white;
+}
+
+.theme-dark {
+    background-color: #1f2937;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 100px 36px 100px;
+    gap: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navbar-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container-about {
+    font-family: hero;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.about-img img{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.about-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container-about h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 15px;
+}
+
+.container-about button {
+    padding: 15px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+.first {
+    gap: 25px;
+    align-items: flex-start;
+}
